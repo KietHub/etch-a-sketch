@@ -10,6 +10,7 @@ h1, #button-menu {
 
 .grid {
     border: 1px solid black;
+    background-color: white;
 }
 
 #grid-container {
@@ -18,4 +19,8 @@ h1, #button-menu {
     display: grid;
     margin: 50px auto;
     grid-template-columns: repeat(var(--grid-col), 1fr);
+}
+
+.coloured {
+    background-color: black;
 }
