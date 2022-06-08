@@ -9,12 +9,12 @@ h1, #button-menu {
 }
 
 .grid {
-    border: 1px solid black;
     background-color: white;
     cursor: crosshair;
 }
 
 #grid-container {
+    border: 1px solid black;
     aspect-ratio: 1/1;
     width: 960px;
     display: grid;
@@ -28,4 +28,26 @@ h1, #button-menu {
 
 .erase {
     cursor: url("./eraser-icon.png") 10 20, auto;
+}
+
+button {
+    border: none;
+    background-color: #20639B;
+    color: white;
+    border-radius: 0.75rem;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .3s;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 30px;
+    transform: scale(1.05);
+}
+
+button:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2.5px 7.5px;
+    transform: scale(0.95);
 }
