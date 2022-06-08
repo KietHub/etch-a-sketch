@@ -1,0 +1,21 @@
+:root {
+    --grid-col: 1;
+}
+
+h1, #button-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.grid {
+    border: 1px solid black;
+}
+
+#grid-container {
+    aspect-ratio: 1/1;
+    width: 960px;
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(var(--grid-col), 1fr);
+}
